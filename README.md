@@ -1,14 +1,11 @@
-[![CircleCI](https://circleci.com/gh/jcsantosbr/todo-backend-springboot2-java12/tree/master.svg?style=svg)](https://circleci.com/gh/jcsantosbr/todo-backend-springboot2-java12/tree/master)
+# Java Containerized Application Sample
 
-# todo-backend-springboot2-java12
-Todo Backend for SpringBoot2.2.0 and Java 12
+This application is an example application for the Rookout Java Agent tutorial.
 
-This is an implementation for Todo Backend: https://www.todobackend.com/
+Run it in two simple steps:
+1. Build the container using Docker - `docker build . -t rookout-java-todo`.
+2. Run the built container using `docker run -it -p 8080:800 rookout-java-todo`
+3. Check out your brand new web app at `http://localhost:8080`.
+4. You may also test your container with TODO backend [project](https://todobackend.com/) by going to `https://www.todobackend.com/specs/index.html?http://localhost:8080/todos`.
 
-It is an update from: https://github.com/jcsantosbr/todo-backend-spring4-java8
-
-There is no tests in the repository.
-You can test the behavior running the service locally and running the specs directly here:
-`https://www.todobackend.com/specs/index.html?http://localhost:8080/todos`
-
-The service is running at: https://todo-back-springboot220-java12.herokuapp.com/todos
+It was forked off this open source [project](https://github.com/jcsantosbr/todo-backend-springboot2-java12) and containerized.
