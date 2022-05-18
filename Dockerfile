@@ -4,7 +4,7 @@ COPY --chown=gradle:gradle . /app
 WORKDIR /app
 RUN gradle build --no-daemon 
 
-FROM openjdk:17-jdk-slim
+FROM openjdk:17-jdk
 
 RUN mkdir /app
 COPY --from=build /app/build/libs/*.jar /app/todobackend-0.0.1-SNAPSHOT.jar
