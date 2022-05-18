@@ -2,7 +2,7 @@
 
 This application is an example application for the Rookout Java Agent tutorial.
 
-Run it in two simple steps:
+Run it in a few simple steps:
 1. Build the container using Docker - `docker build . -t rookout-java-todo`.
 2. Run the built container using `docker run -it -p 8080:800 rookout-java-todo`
 3. Check out your brand new web app at `http://localhost:8080`.
