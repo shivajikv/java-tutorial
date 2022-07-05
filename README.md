@@ -1,6 +1,6 @@
 # Java Containerized Application Sample
 
-This application is an example application for the Rookout Java Agent tutorial.
+This application is an example application for the Rookout Java Agent [tutorial](https://docs.rookout.com/docs/java-container-tutorial/).
 
 Run it in a few simple steps:
 1. Build the container using Docker - `docker build . -t rookout-java-todo`.
